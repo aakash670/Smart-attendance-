@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Smart Attendance System
 
-# Run and deploy your AI Studio app
+Smart Attendance System is an automated system designed to track and manage attendance efficiently using modern technologies such as facial recognition, QR codes, or biometric authentication. The system eliminates manual attendance marking, reduces errors, and provides real-time attendance data for schools, colleges, or workplaces.
 
-This contains everything you need to run your app locally.
+Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/19-L_JhKNo1P_Oldgs_nZyMsdXRlgpkgl
+Automated Attendance: Marks attendance automatically using face recognition, QR codes, or biometric verification.
 
-## Run Locally
+Real-Time Updates: Attendance data is updated instantly in the system.
 
-**Prerequisites:**  Node.js
+User Management: Allows creation and management of student or employee profiles, including ID and attendance history.
+
+Reports & Analytics: Generate daily, weekly, or monthly attendance reports to track attendance trends.
+
+Secure & Reliable: All data is stored securely in the database to ensure privacy and integrity.
+
+Easy-to-Use Interface: Simple interface for both administrators and users to mark and view attendance.
+
+Technologies Used
+
+Backend: Python / Java / Node.js
+
+Frontend: HTML, CSS, JavaScript / Android (if mobile app)
+
+Database: MySQL / SQLite / Firebase
+
+Libraries/Tools: OpenCV (for facial recognition), ML models, QR code scanner libraries
+
+Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/aakash670/Smart-attendance-.git
+cd Smart-attendance-
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Install dependencies (for Python example):
+
+pip install -r requirements.txt
+
+
+Set up the database:
+
+Create required tables for users and attendance records.
+
+Update database configuration in the backend if needed.
+
+Run the application:
+
+python app.py
+
+
+Access the system:
+
+Open your browser and go to http://localhost:5000 (if using Flask).
+
+Start adding users and marking attendance.
+
+Usage
+
+Add student/employee profiles into the system.
+
+Mark attendance using face recognition, QR code scan, or biometric scan.
+
+Attendance is automatically logged in the database.
+
+Generate reports to monitor attendance over different periods.
