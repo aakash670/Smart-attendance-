@@ -1,0 +1,7 @@
+{
+  "name": "School Attendance Management System",
+  "description": "A comprehensive school attendance system using face recognition, with role-based dashboards for admins, teachers, students, and parents. Features real-time tracking, notifications, and reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
